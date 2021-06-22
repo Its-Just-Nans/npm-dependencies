@@ -19,7 +19,7 @@
 			if (
 				doDependencies &&
 				parsed.devDependencies &&
-				Object.keys(parsed.devDependencies.length) > 0
+				Object.keys(parsed.devDependencies).length > 0
 			) {
 				object.devDependencies = parsed.devDependencies;
 			}
@@ -101,12 +101,12 @@
 		href="https://svelte.dev"
 		target="_blank"
 	>
-		<p class="inline logo-txt">Svelte</p>
+		<p class="inline">Svelte</p>
 		<img class="inline logo" src="https://svelte.dev/favicon.png" alt="" />
 	</a>
 	<p class="inline">and</p>
 	<a href="https://vercel.com/" class="link" target="_blank">
-		<p class="inline logo-txt">Vercel</p>
+		<p class="inline">Vercel</p>
 		<svg
 			class="inline logo"
 			style="vertical-align: text-top;"
@@ -118,6 +118,13 @@
 		>
 	</a>
 	<p class="inline">!</p>
+	<p class="inline">
+		Check code <a
+			class="link"
+			href="https://github.com/Its-Just-Nans/npm-license-dependencies"
+			>here</a
+		>
+	</p>
 </div>
 <table>
 	<thead>
@@ -216,9 +223,6 @@
 		max-width: 100vw;
 		overflow: auto;
 	}
-	.logo-txt {
-		font-weight: bold;
-	}
 	.inline {
 		display: inline;
 	}
@@ -243,6 +247,7 @@
 		color: initial;
 	}
 	.link {
+		font-weight: bold;
 		text-decoration: none;
 	}
 </style>

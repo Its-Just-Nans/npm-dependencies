@@ -1,5 +1,5 @@
 
-(function(l, r) { if (l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (window.location.host || 'localhost').split(':')[0] + ':35730/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(window.document);
+(function(l, r) { if (l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (window.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(window.document);
 var app = (function () {
     'use strict';
 
@@ -378,7 +378,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (153:4) {:else}
+    // (160:4) {:else}
     function create_else_block(ctx) {
     	let p;
 
@@ -387,7 +387,7 @@ var app = (function () {
     			p = element("p");
     			p.textContent = "Loading...";
     			set_style(p, "font-weight", "bold");
-    			add_location(p, file, 153, 5, 3685);
+    			add_location(p, file, 160, 5, 3809);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -402,14 +402,14 @@ var app = (function () {
     		block,
     		id: create_else_block.name,
     		type: "else",
-    		source: "(153:4) {:else}",
+    		source: "(160:4) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (134:4) {#if working != true}
+    // (141:4) {#if working != true}
     function create_if_block_3(ctx) {
     	let label0;
     	let t1;
@@ -450,17 +450,17 @@ var app = (function () {
     			button = element("button");
     			button.textContent = "Send";
     			attr_dev(label0, "for", "outputFilename");
-    			add_location(label0, file, 134, 5, 3224);
+    			add_location(label0, file, 141, 5, 3348);
     			attr_dev(input0, "type", "text");
-    			add_location(input0, file, 135, 5, 3281);
-    			add_location(br0, file, 136, 5, 3336);
+    			add_location(input0, file, 142, 5, 3405);
+    			add_location(br0, file, 143, 5, 3460);
     			attr_dev(label1, "for", "doDependencies");
-    			add_location(label1, file, 137, 5, 3348);
+    			add_location(label1, file, 144, 5, 3472);
     			attr_dev(input1, "type", "checkbox");
-    			add_location(input1, file, 138, 5, 3408);
-    			add_location(br1, file, 144, 5, 3524);
-    			add_location(br2, file, 145, 5, 3536);
-    			add_location(button, file, 146, 5, 3548);
+    			add_location(input1, file, 145, 5, 3532);
+    			add_location(br1, file, 151, 5, 3648);
+    			add_location(br2, file, 152, 5, 3660);
+    			add_location(button, file, 153, 5, 3672);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, label0, anchor);
@@ -520,14 +520,14 @@ var app = (function () {
     		block,
     		id: create_if_block_3.name,
     		type: "if",
-    		source: "(134:4) {#if working != true}",
+    		source: "(141:4) {#if working != true}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (182:44) 
+    // (189:44) 
     function create_if_block_2(ctx) {
     	let p;
     	let t0_value = /*oneError*/ ctx[11].name + "";
@@ -552,11 +552,11 @@ var app = (function () {
     			t4 = space();
     			hr = element("hr");
     			set_style(p, "font-weight", "bold");
-    			attr_dev(p, "class", "red svelte-1evaudt");
-    			add_location(p, file, 182, 6, 4468);
+    			attr_dev(p, "class", "red svelte-eepomh");
+    			add_location(p, file, 189, 6, 4592);
     			attr_dev(a, "href", a_href_value = /*oneError*/ ctx[11].repository);
-    			add_location(a, file, 185, 6, 4551);
-    			add_location(hr, file, 186, 6, 4613);
+    			add_location(a, file, 192, 6, 4675);
+    			add_location(hr, file, 193, 6, 4737);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -589,14 +589,14 @@ var app = (function () {
     		block,
     		id: create_if_block_2.name,
     		type: "if",
-    		source: "(182:44) ",
+    		source: "(189:44) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (180:5) {#if typeof oneError === "string"}
+    // (187:5) {#if typeof oneError === "string"}
     function create_if_block_1(ctx) {
     	let p;
     	let t_value = /*oneError*/ ctx[11] + "";
@@ -607,8 +607,8 @@ var app = (function () {
     			p = element("p");
     			t = text(t_value);
     			set_style(p, "font-weight", "bold");
-    			attr_dev(p, "class", "red svelte-1evaudt");
-    			add_location(p, file, 180, 6, 4362);
+    			attr_dev(p, "class", "red svelte-eepomh");
+    			add_location(p, file, 187, 6, 4486);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -626,14 +626,14 @@ var app = (function () {
     		block,
     		id: create_if_block_1.name,
     		type: "if",
-    		source: "(180:5) {#if typeof oneError === \\\"string\\\"}",
+    		source: "(187:5) {#if typeof oneError === \\\"string\\\"}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (179:4) {#each errors as oneError, i}
+    // (186:4) {#each errors as oneError, i}
     function create_each_block(ctx) {
     	let if_block_anchor;
 
@@ -680,14 +680,14 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(179:4) {#each errors as oneError, i}",
+    		source: "(186:4) {#each errors as oneError, i}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (194:4) {#if resultString !== ""}
+    // (201:4) {#if resultString !== ""}
     function create_if_block(ctx) {
     	let pre;
     	let t;
@@ -696,8 +696,8 @@ var app = (function () {
     		c: function create() {
     			pre = element("pre");
     			t = text(/*resultString*/ ctx[1]);
-    			attr_dev(pre, "class", "pre-res svelte-1evaudt");
-    			add_location(pre, file, 194, 5, 4722);
+    			attr_dev(pre, "class", "pre-res svelte-eepomh");
+    			add_location(pre, file, 201, 5, 4846);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, pre, anchor);
@@ -715,7 +715,7 @@ var app = (function () {
     		block,
     		id: create_if_block.name,
     		type: "if",
-    		source: "(194:4) {#if resultString !== \\\"\\\"}",
+    		source: "(201:4) {#if resultString !== \\\"\\\"}",
     		ctx
     	});
 
@@ -746,39 +746,43 @@ var app = (function () {
     	let t12;
     	let p4;
     	let t14;
+    	let p5;
+    	let t15;
+    	let a2;
+    	let t17;
     	let table;
     	let thead;
     	let tr0;
     	let th;
     	let textarea;
-    	let t15;
+    	let t18;
     	let br;
-    	let t16;
-    	let t17;
+    	let t19;
+    	let t20;
     	let tbody;
     	let tr1;
     	let td0;
     	let h20;
-    	let t19;
+    	let t22;
     	let td1;
     	let h21;
-    	let t21;
+    	let t24;
     	let td2;
     	let h22;
-    	let t23;
+    	let t26;
     	let tr2;
     	let td3;
     	let pre0;
-    	let t24_value = JSON.stringify(/*parsed*/ ctx[0].dependencies, null, 4) + "";
-    	let t24;
-    	let t25;
+    	let t27_value = JSON.stringify(/*parsed*/ ctx[0].dependencies, null, 4) + "";
+    	let t27;
+    	let t28;
     	let td4;
     	let pre1;
-    	let t26_value = JSON.stringify(/*parsed*/ ctx[0].devDependencies, null, 4) + "";
-    	let t26;
-    	let t27;
+    	let t29_value = JSON.stringify(/*parsed*/ ctx[0].devDependencies, null, 4) + "";
+    	let t29;
+    	let t30;
     	let td5;
-    	let t28;
+    	let t31;
     	let tr3;
     	let td6;
     	let mounted;
@@ -831,122 +835,132 @@ var app = (function () {
     			p4 = element("p");
     			p4.textContent = "!";
     			t14 = space();
+    			p5 = element("p");
+    			t15 = text("Check code ");
+    			a2 = element("a");
+    			a2.textContent = "here";
+    			t17 = space();
     			table = element("table");
     			thead = element("thead");
     			tr0 = element("tr");
     			th = element("th");
     			textarea = element("textarea");
-    			t15 = space();
+    			t18 = space();
     			br = element("br");
-    			t16 = space();
+    			t19 = space();
     			if_block0.c();
-    			t17 = space();
+    			t20 = space();
     			tbody = element("tbody");
     			tr1 = element("tr");
     			td0 = element("td");
     			h20 = element("h2");
     			h20.textContent = "dependencies";
-    			t19 = space();
+    			t22 = space();
     			td1 = element("td");
     			h21 = element("h2");
     			h21.textContent = "devDependencies";
-    			t21 = space();
+    			t24 = space();
     			td2 = element("td");
     			h22 = element("h2");
     			h22.textContent = "Errors";
-    			t23 = space();
+    			t26 = space();
     			tr2 = element("tr");
     			td3 = element("td");
     			pre0 = element("pre");
-    			t24 = text(t24_value);
-    			t25 = space();
+    			t27 = text(t27_value);
+    			t28 = space();
     			td4 = element("td");
     			pre1 = element("pre");
-    			t26 = text(t26_value);
-    			t27 = space();
+    			t29 = text(t29_value);
+    			t30 = space();
     			td5 = element("td");
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
     			}
 
-    			t28 = space();
+    			t31 = space();
     			tr3 = element("tr");
     			td6 = element("td");
     			if (if_block1) if_block1.c();
     			add_location(h1, file, 95, 1, 2327);
-    			attr_dev(p0, "class", "inline svelte-1evaudt");
+    			attr_dev(p0, "class", "inline svelte-eepomh");
     			add_location(p0, file, 96, 1, 2362);
-    			attr_dev(p1, "class", "inline logo-txt svelte-1evaudt");
+    			attr_dev(p1, "class", "inline svelte-eepomh");
     			add_location(p1, file, 103, 2, 2487);
-    			attr_dev(img, "class", "inline logo svelte-1evaudt");
+    			attr_dev(img, "class", "inline logo svelte-eepomh");
     			if (img.src !== (img_src_value = "https://svelte.dev/favicon.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "");
-    			add_location(img, file, 104, 2, 2527);
+    			add_location(img, file, 104, 2, 2518);
     			set_style(a0, "color", "orange");
-    			attr_dev(a0, "class", "link svelte-1evaudt");
+    			attr_dev(a0, "class", "link svelte-eepomh");
     			attr_dev(a0, "href", "https://svelte.dev");
     			attr_dev(a0, "target", "_blank");
     			add_location(a0, file, 97, 1, 2395);
-    			attr_dev(p2, "class", "inline svelte-1evaudt");
-    			add_location(p2, file, 106, 1, 2606);
-    			attr_dev(p3, "class", "inline logo-txt svelte-1evaudt");
-    			add_location(p3, file, 108, 2, 2695);
-    			add_location(title, file, 114, 4, 2842);
+    			attr_dev(p2, "class", "inline svelte-eepomh");
+    			add_location(p2, file, 106, 1, 2597);
+    			attr_dev(p3, "class", "inline svelte-eepomh");
+    			add_location(p3, file, 108, 2, 2686);
+    			add_location(title, file, 114, 4, 2824);
     			attr_dev(path, "d", "M37.59.25l36.95 64H.64l36.95-64z");
-    			add_location(path, file, 114, 30, 2868);
-    			attr_dev(svg, "class", "inline logo svelte-1evaudt");
+    			add_location(path, file, 114, 30, 2850);
+    			attr_dev(svg, "class", "inline logo svelte-eepomh");
     			set_style(svg, "vertical-align", "text-top");
     			attr_dev(svg, "height", "26");
     			attr_dev(svg, "viewBox", "0 0 75 65");
-    			add_location(svg, file, 109, 2, 2735);
+    			add_location(svg, file, 109, 2, 2717);
     			attr_dev(a1, "href", "https://vercel.com/");
-    			attr_dev(a1, "class", "link svelte-1evaudt");
+    			attr_dev(a1, "class", "link svelte-eepomh");
     			attr_dev(a1, "target", "_blank");
-    			add_location(a1, file, 107, 1, 2633);
-    			attr_dev(p4, "class", "inline svelte-1evaudt");
-    			add_location(p4, file, 119, 1, 2937);
+    			add_location(a1, file, 107, 1, 2624);
+    			attr_dev(p4, "class", "inline svelte-eepomh");
+    			add_location(p4, file, 119, 1, 2919);
+    			attr_dev(a2, "class", "link svelte-eepomh");
+    			attr_dev(a2, "href", "https://github.com/Its-Just-Nans/npm-license-dependencies");
+    			add_location(a2, file, 121, 13, 2976);
+    			attr_dev(p5, "class", "inline svelte-eepomh");
+    			add_location(p5, file, 120, 1, 2944);
     			set_style(div, "text-align", "center");
     			add_location(div, file, 94, 0, 2292);
     			attr_dev(textarea, "id", "textarea");
     			attr_dev(textarea, "placeholder", "Your package.json here");
-    			attr_dev(textarea, "class", "svelte-1evaudt");
-    			add_location(textarea, file, 125, 4, 3016);
-    			add_location(br, file, 132, 4, 3186);
+    			attr_dev(textarea, "class", "svelte-eepomh");
+    			add_location(textarea, file, 132, 4, 3140);
+    			add_location(br, file, 139, 4, 3310);
     			attr_dev(th, "colspan", "3");
-    			add_location(th, file, 124, 3, 2995);
-    			add_location(tr0, file, 123, 2, 2987);
-    			add_location(thead, file, 122, 1, 2977);
-    			attr_dev(h20, "class", "titleCol svelte-1evaudt");
-    			add_location(h20, file, 161, 4, 3832);
-    			attr_dev(td0, "class", "results svelte-1evaudt");
-    			add_location(td0, file, 160, 3, 3807);
-    			attr_dev(h21, "class", "titleCol svelte-1evaudt");
-    			add_location(h21, file, 164, 4, 3908);
-    			attr_dev(td1, "class", "results svelte-1evaudt");
-    			add_location(td1, file, 163, 3, 3883);
-    			attr_dev(h22, "class", "titleCol svelte-1evaudt");
-    			add_location(h22, file, 167, 4, 3987);
-    			attr_dev(td2, "class", "results svelte-1evaudt");
-    			add_location(td2, file, 166, 3, 3962);
+    			add_location(th, file, 131, 3, 3119);
+    			add_location(tr0, file, 130, 2, 3111);
+    			add_location(thead, file, 129, 1, 3101);
+    			attr_dev(h20, "class", "titleCol svelte-eepomh");
+    			add_location(h20, file, 168, 4, 3956);
+    			attr_dev(td0, "class", "results svelte-eepomh");
+    			add_location(td0, file, 167, 3, 3931);
+    			attr_dev(h21, "class", "titleCol svelte-eepomh");
+    			add_location(h21, file, 171, 4, 4032);
+    			attr_dev(td1, "class", "results svelte-eepomh");
+    			add_location(td1, file, 170, 3, 4007);
+    			attr_dev(h22, "class", "titleCol svelte-eepomh");
+    			add_location(h22, file, 174, 4, 4111);
+    			attr_dev(td2, "class", "results svelte-eepomh");
+    			add_location(td2, file, 173, 3, 4086);
     			set_style(tr1, "display", "flex");
-    			add_location(tr1, file, 159, 2, 3778);
-    			add_location(pre0, file, 172, 4, 4093);
-    			attr_dev(td3, "class", "results svelte-1evaudt");
-    			add_location(td3, file, 171, 3, 4068);
-    			add_location(pre1, file, 175, 4, 4188);
-    			attr_dev(td4, "class", "results svelte-1evaudt");
-    			add_location(td4, file, 174, 3, 4163);
-    			attr_dev(td5, "class", "results svelte-1evaudt");
-    			add_location(td5, file, 177, 3, 4261);
+    			add_location(tr1, file, 166, 2, 3902);
+    			add_location(pre0, file, 179, 4, 4217);
+    			attr_dev(td3, "class", "results svelte-eepomh");
+    			add_location(td3, file, 178, 3, 4192);
+    			add_location(pre1, file, 182, 4, 4312);
+    			attr_dev(td4, "class", "results svelte-eepomh");
+    			add_location(td4, file, 181, 3, 4287);
+    			attr_dev(td5, "class", "results svelte-eepomh");
+    			add_location(td5, file, 184, 3, 4385);
     			set_style(tr2, "display", "flex");
-    			add_location(tr2, file, 170, 2, 4039);
+    			add_location(tr2, file, 177, 2, 4163);
     			attr_dev(td6, "colspan", "3");
-    			add_location(td6, file, 192, 3, 4670);
-    			add_location(tr3, file, 191, 2, 4662);
-    			add_location(tbody, file, 158, 1, 3768);
-    			attr_dev(table, "class", "svelte-1evaudt");
-    			add_location(table, file, 121, 0, 2968);
+    			add_location(td6, file, 199, 3, 4794);
+    			add_location(tr3, file, 198, 2, 4786);
+    			add_location(tbody, file, 165, 1, 3892);
+    			attr_dev(table, "class", "svelte-eepomh");
+    			add_location(table, file, 128, 0, 3092);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -973,44 +987,48 @@ var app = (function () {
     			append_dev(svg, path);
     			append_dev(div, t12);
     			append_dev(div, p4);
-    			insert_dev(target, t14, anchor);
+    			append_dev(div, t14);
+    			append_dev(div, p5);
+    			append_dev(p5, t15);
+    			append_dev(p5, a2);
+    			insert_dev(target, t17, anchor);
     			insert_dev(target, table, anchor);
     			append_dev(table, thead);
     			append_dev(thead, tr0);
     			append_dev(tr0, th);
     			append_dev(th, textarea);
-    			append_dev(th, t15);
+    			append_dev(th, t18);
     			append_dev(th, br);
-    			append_dev(th, t16);
+    			append_dev(th, t19);
     			if_block0.m(th, null);
-    			append_dev(table, t17);
+    			append_dev(table, t20);
     			append_dev(table, tbody);
     			append_dev(tbody, tr1);
     			append_dev(tr1, td0);
     			append_dev(td0, h20);
-    			append_dev(tr1, t19);
+    			append_dev(tr1, t22);
     			append_dev(tr1, td1);
     			append_dev(td1, h21);
-    			append_dev(tr1, t21);
+    			append_dev(tr1, t24);
     			append_dev(tr1, td2);
     			append_dev(td2, h22);
-    			append_dev(tbody, t23);
+    			append_dev(tbody, t26);
     			append_dev(tbody, tr2);
     			append_dev(tr2, td3);
     			append_dev(td3, pre0);
-    			append_dev(pre0, t24);
-    			append_dev(tr2, t25);
+    			append_dev(pre0, t27);
+    			append_dev(tr2, t28);
     			append_dev(tr2, td4);
     			append_dev(td4, pre1);
-    			append_dev(pre1, t26);
-    			append_dev(tr2, t27);
+    			append_dev(pre1, t29);
+    			append_dev(tr2, t30);
     			append_dev(tr2, td5);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].m(td5, null);
     			}
 
-    			append_dev(tbody, t28);
+    			append_dev(tbody, t31);
     			append_dev(tbody, tr3);
     			append_dev(tr3, td6);
     			if (if_block1) if_block1.m(td6, null);
@@ -1038,8 +1056,8 @@ var app = (function () {
     				}
     			}
 
-    			if (dirty & /*parsed*/ 1 && t24_value !== (t24_value = JSON.stringify(/*parsed*/ ctx[0].dependencies, null, 4) + "")) set_data_dev(t24, t24_value);
-    			if (dirty & /*parsed*/ 1 && t26_value !== (t26_value = JSON.stringify(/*parsed*/ ctx[0].devDependencies, null, 4) + "")) set_data_dev(t26, t26_value);
+    			if (dirty & /*parsed*/ 1 && t27_value !== (t27_value = JSON.stringify(/*parsed*/ ctx[0].dependencies, null, 4) + "")) set_data_dev(t27, t27_value);
+    			if (dirty & /*parsed*/ 1 && t29_value !== (t29_value = JSON.stringify(/*parsed*/ ctx[0].devDependencies, null, 4) + "")) set_data_dev(t29, t29_value);
 
     			if (dirty & /*errors*/ 16) {
     				each_value = /*errors*/ ctx[4];
@@ -1082,7 +1100,7 @@ var app = (function () {
     		o: noop,
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(div);
-    			if (detaching) detach_dev(t14);
+    			if (detaching) detach_dev(t17);
     			if (detaching) detach_dev(table);
     			if_block0.d();
     			destroy_each(each_blocks, detaching);
@@ -1120,7 +1138,7 @@ var app = (function () {
     		if (parsed.dependencies && Object.keys(parsed.dependencies).length > 0) {
     			object.dependencies = parsed.dependencies;
 
-    			if (doDependencies && parsed.devDependencies && Object.keys(parsed.devDependencies.length) > 0) {
+    			if (doDependencies && parsed.devDependencies && Object.keys(parsed.devDependencies).length > 0) {
     				object.devDependencies = parsed.devDependencies;
     			}
     		} else {
