@@ -3,12 +3,22 @@
     "version": "1.0.0",
     "description": "Get all the license of your dependencies",
     "main": "index.js",
+    "homepage": "https://github.com/Its-Just-Nans/npm-license-dependencies",
+    "bugs": "https://github.com/Its-Just-Nans/npm-license-dependencies/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Its-Just-Nans/npm-license-dependencies.git"
+    },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "rollup -c -w",
         "build": "rollup -c"
     },
-    "keywords": [],
+    "keywords": [
+        "license",
+        "thirdparty",
+        "thirdparty-license"
+    ],
     "author": "n4n5",
     "license": "MIT",
     "devDependencies": {
